@@ -1,0 +1,10 @@
+{
+  "appId": "restapicreateupdateobjects",
+  "apiKey": "8cc66add2a4769cea851e343f5400e6f645774c9587a298c34b626936cad4b65",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
