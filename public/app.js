@@ -15,7 +15,7 @@ function createObject(){
   		}
 	});
 
-	xhr.open("POST", "https://restapicreateupdateobjects.stamplayapp.com/api/cobject/v1/object");
+	xhr.open("POST", "https://[yourAppId].stamplayapp.com/api/cobject/v1/:cobjectId");
 	xhr.setRequestHeader("accept", "application/json");
 	xhr.setRequestHeader("content-type", "application/json");
 	xhr.send(data);
@@ -38,7 +38,7 @@ function updateObject(){
   		}
 	});
 
-	xhr.open("PUT", "https://restapicreateupdateobjects.stamplayapp.com/api/cobject/v1/object/565603deb3039e5f75c10d60");
+	xhr.open("PUT", "https://[yourAppId].stamplayapp.com/api/cobject/v1/cobjectId/:id");
 	xhr.setRequestHeader("accept", "application/json");
 	xhr.setRequestHeader("content-type", "application/json");
 	xhr.send(data);
